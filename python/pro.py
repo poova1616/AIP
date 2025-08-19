@@ -8,10 +8,21 @@ output = "kvreinsihna"
 """
 
 
-str1 = "dha" # 7
-str2 = "venit" # 4
+str1 = "dha3445"
+str2 = "veni"
 output=""
 
+
+
+def fun(a):
+    pass
+
+
+    
+
+
+
+"""
 i = 0
 while i < len(str2):
     output += str1[i]+str2[i]
@@ -21,4 +32,4 @@ output += str1[i:]
 
 print(output)
 
-
+"""
