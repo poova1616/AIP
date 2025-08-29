@@ -1,5 +1,5 @@
-
-"""This function finds the maximum element in a list of integers.
+"""
+#This function finds the maximum element in a list of integers.
 
 def find_max(arr):
     max_element = arr[0]
@@ -11,22 +11,21 @@ def find_max(arr):
     return max_element
 
 print(find_max([1, 3, 5, 10, 9]))
-
 """
 
 
-arr=[1,2,3,4,5,6,7,8,9]
 
-arrlen=len(arr)
+arr=[1,12,13,4,8,6,7,8,9,67]
 
-secondmax=int(arrlen-1)
+arr.sort()
+secondmax=int(len(arr)-2)
 
 def bsa(arr,target):
     low,high = 0,len(arr)-1
     while low <= high:
         mid =(low+high)//2
         if arr[mid] ==target:
-            return mid
+            return arr[mid]
         elif arr[mid] < target:
             low = mid + 1   
         else:
